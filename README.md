@@ -15,12 +15,12 @@ npm install @wangx6/vhi-react-library@1.0.1
 ```jsx
 import React, { Component } from 'react'
 
-import {VButton} from 'vhi-react-lib'
+import {VhiButton} from 'vhi-react-lib'
 import 'vhi-react-lib/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <VButton text="Go"/>
+    return <VhiButton text="Go"/>
   }
 }
 ```
