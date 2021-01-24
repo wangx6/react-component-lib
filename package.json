@@ -1,10 +1,12 @@
 {
-  "name": "vhi-react-lib",
-  "version": "1.0.0",
-  "description": "vhi react lib",
+  "name": "@wangx6/vhi-react-library",
+  "version": "1.0.1",
+  "description": "vhi react library",
   "author": "wangx6",
   "license": "MIT",
-  "repository": "wangx6/vhi-react-lib",
+  "repository":{
+    "url": "git://github.com/wangx6/vhi-react-library.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

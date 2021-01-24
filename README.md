@@ -1,4 +1,4 @@
-# vhi-react-lib
+# @wangx6/vhi-react-lib
 
 > vhi react lib
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save vhi-react-lib
+npm install @wangx6/vhi-react-library@1.0.1
 ```
 
 ## Usage
@@ -15,12 +15,12 @@ npm install --save vhi-react-lib
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'vhi-react-lib'
+import {VButton} from 'vhi-react-lib'
 import 'vhi-react-lib/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <VButton text="Go"/>
   }
 }
 ```
