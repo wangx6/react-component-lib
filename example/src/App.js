@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'vhi-react-lib'
+import { VhiButton, VhiInput } from 'vhi-react-lib'
 import 'vhi-react-lib/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <div>
+        <VhiButton text="Vhi react component lib 😄"></VhiButton>
+      </div>
+      <div>
+        <VhiInput placeholder="Email"></VhiInput>
+      </div>
+    </div>)
 }
 
 export default App

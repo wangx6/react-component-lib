@@ -1,6 +1,16 @@
 import React from 'react'
-import styles from './styles.module.css'
+import './styles.module.css'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+
+import VhiButton from './buttons/Button/Button';
+import VhiInput from './inputs/TextInput/TextInput';
+console.log(VhiButton);
+
+
+// if you want to see all the components (story book) cd to 
+// example folder and run "npm run start"
+// export default { VButton } ;
+export { 
+  VhiButton,
+  VhiInput,
 }
