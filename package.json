@@ -1,10 +1,10 @@
 {
   "name": "@wangx6/vhi-react-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vhi react library",
   "author": "wangx6",
   "license": "MIT",
-  "repository":{
+  "repository": {
     "url": "git://github.com/wangx6/vhi-react-library.git"
   },
   "main": "dist/index.js",
@@ -51,5 +51,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }

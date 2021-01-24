@@ -7,10 +7,10 @@ const App = () => {
   return (
     <div>
       <div>
-        <VhiButton text="Vhi react component lib 😄"></VhiButton>
+        <VhiButton text="VhiButton"></VhiButton>
       </div>
       <div>
-        <VhiInput placeholder="Email"></VhiInput>
+        <VhiInput placeholder="VhiInput"></VhiInput>
       </div>
     </div>)
 }

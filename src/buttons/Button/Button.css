@@ -1,0 +1,16 @@
+
+
+.vhi-btn{
+    background: var(--purple);
+    color: #fff;
+    padding: 7px;
+    width: 100%;
+    border: 0;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.vhi-btn:hover{
+    background-color: var(--l-purple);
+}

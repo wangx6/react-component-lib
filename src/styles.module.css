@@ -1,14 +1,8 @@
-:root {
-  --purple: purple;
-  --black: #333;
-  --white: #fff;
-  --border: 2px solid #333;
-  --red: red;
+/* this is the index.css or index.scss file */
+/* this file is only to be used as an assembler */
+/* first, global values, third party lib such as bootstrap */
+/* second, include components, page level styling */
+:root{
+    --purple:  #9c3cac;
+    --l-purple: #a65db3;
 }
-/* add css module styles here (optional) */
-body, div, input, button {
-  color: var(--black);
-  border : var(--border);
-
-}
-
