@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  background-color: #efefef;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,4 +11,91 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h3{
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+
+.vrl-side-wrap{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 330px;
+  
+}
+.vrl-side{
+  width: 310px;
+  background-color:#fff;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  padding-bottom: 200px;
+}
+.vrl-side-logo{
+  width: 180px;
+  margin: auto;
+}
+.vrl-side-logo img{
+  width: 100%;
+  
+}
+.vrl-side-list{
+  margin-top: 40px;
+}
+.vrl-side-item-group{
+  font-weight: bold;
+}
+.vrl-side-item{
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.vrl-side-item-child{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.vrl-side-item-child:hover{
+  font-weight: bold;
+}
+.vrl-main{
+  padding: 30px 30px 30px 340px;
+}
+
+.vrl-comp{
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 5px #ccc;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: #fff;
+}
+.vrl-comp-doc{
+  background-color: #fff;
+  margin-top: 20px;
+}
+.vrl-comp-doc-blk{
+  margin-bottom: 20px;
+}
+.vrl-comp-doc-blk table {
+  width: 100%;
+  border-spacing: 0;
+}
+.vrl-comp-doc-blk table tr th,
+.vrl-comp-doc-blk table tr td{
+  padding: 10px;
+}
+.vrl-comp-doc-blk table tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+.vrl-comp-doc-blk table tr th{
+  text-align:left;
+  color: #09c;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.vrl-space{
+  margin-bottom: 20px;
 }

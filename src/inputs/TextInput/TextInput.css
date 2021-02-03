@@ -1,5 +1,6 @@
 .vhi-input{
-    padding: 10px;
+    box-sizing: border-box;
+    padding: 15px 10px;
     font-size: 1rem;
     border-radius: 0;
     border: 0;

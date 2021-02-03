@@ -6,3 +6,6 @@
     --purple:  #9c3cac;
     --l-purple: #a65db3;
 }
+* {
+    letter-spacing: 0.1rem;
+}

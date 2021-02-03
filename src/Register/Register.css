@@ -1,0 +1,8 @@
+.vhi-register .vhi-register-err {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.vhi-register-subbtn{
+    margin-top: 20px;
+}
