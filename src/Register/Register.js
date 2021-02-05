@@ -3,8 +3,6 @@ import VhiButton from '../Buttons/Button/Button';
 import VhiInput from '../inputs/TextInput/TextInput';
 import RegisterStyle from './Register.css';
 
-console.log(RegisterStyle);
-
 export default function VhiRegister({vhandleRegister, vemail, vpassword, vconfirmPassword, verror}) {
     const [email, setEmail] = useState(vemail);
     const [password, setPassword] = useState(vpassword);

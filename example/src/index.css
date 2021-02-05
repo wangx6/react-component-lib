@@ -9,20 +9,38 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-h1, h3{
-  margin: 0 0 30px 0;
+h1, h2, h3{
+  margin: 0;
   padding: 0;
+}
+.vrl-main{
+  display: flex;
+}
+.vrl-main-right{
+  flex-grow: 1;
+}
+.vrl-main-heading{
+  margin: 30px 0 30px 0;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.vrl-main-version{
+  background-color: #3f83f8;
+  padding: 10px 25px;
+  margin-left: 20px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
 }
 
 
 .vrl-side-wrap{
-  position: absolute;
-  left: 0;
-  top: 0;
+  
   width: 330px;
   
 }
@@ -45,32 +63,52 @@ h1, h3{
 .vrl-side-list{
   margin-top: 40px;
 }
-.vrl-side-item-group{
-  font-weight: bold;
-}
+
 .vrl-side-item{
   text-transform: capitalize;
   margin-bottom: 20px;
   cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+.vrl-side-item-tag{
+  font-size: 0.5rem;
+  padding: 1px 5px 2px 5px;
+  border: 1px solid #ccc;
+  background-color: #fefefe;
+  border-radius:4px;
+  margin-left: 5px;
+}
+.vrl-side-item-tag.button{
+  background-color: rgba(135,206,250, 0.15);
+}
+.vrl-side-item-tag.input{
+  background-color: rgba(220,20,60, 0.15);
+}
+.vrl-side-item-tag.mf{
+  background-color: rgba(0,128,0, 0.15);
 }
 .vrl-side-item-child{
   margin-left: 20px;
   margin-top: 10px;
 }
-.vrl-side-item-child:hover{
-  font-weight: bold;
+.vrl-side-item-name{
+  color: #999;
 }
-.vrl-main{
-  padding: 30px 30px 30px 340px;
+.vrl-side-item-name:hover{
+  color: #000;
 }
+
 
 .vrl-comp{
   margin-bottom: 50px;
   box-shadow: 1px 1px 5px #ccc;
   border-radius: 6px;
-  padding: 20px;
+  padding: 50px;
   background-color: #fff;
 }
+
 .vrl-comp-doc{
   background-color: #fff;
   margin-top: 20px;
@@ -82,17 +120,38 @@ h1, h3{
   width: 100%;
   border-spacing: 0;
 }
-.vrl-comp-doc-blk table tr th,
+.vrl-comp-doc-blk table tr th{
+  padding: 10px 20px 10px 0;
+}
 .vrl-comp-doc-blk table tr td{
   padding: 10px;
 }
 .vrl-comp-doc-blk table tr:nth-child(even) {
   background-color: #f6f6f6;
 }
+.vrl-comp-header-wrap{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.vrl-comp-container{
+  margin-bottom: 50px;
+}
+.vrl-comp-tag{
+  background-color: rgba(255,165,0, 0.1);
+  color: #000;
+  border: 1px solid orange;
+  font-size: 0.65rem;
+  border-radius: 4px;
+  margin-left: 5px;
+  padding: 2px 10px;
+  text-align: center;
+  display: inline-block;
+}
 .vrl-comp-doc-blk table tr th{
   text-align:left;
   color: #09c;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: capitalize;
 }
 

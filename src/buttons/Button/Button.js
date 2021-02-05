@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import vhiBtnStyle from './button.css';
 
-console.log(vhiBtnStyle);
-
 const VhiButton = ({ vtext, vhandleClick, vdisabled, vclassName, vshowSpinner}) => {
     const [clsName] = useState(vclassName || '');
     const [showSpinner, setShowSpinner] = useState(vshowSpinner);

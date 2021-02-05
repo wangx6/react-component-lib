@@ -8,6 +8,7 @@ import VhiLogin from './Login/Login';
 import VhiRegister from './Register/Register';
 import VhiVerifyEmail from './VerifyEmail/VerifyEmail';
 import VhiForgotPassword from './ForgotPassword/ForgotPassword';
+import VhiResetPassword from './ResetPassword/ResetPassword';
 
 // if you want to see all the components (story book) cd to 
 // example folder and run "npm run start"
@@ -18,5 +19,6 @@ export {
   VhiLogin,
   VhiRegister,
   VhiVerifyEmail,
-  VhiForgotPassword
+  VhiForgotPassword,
+  VhiResetPassword,
 }

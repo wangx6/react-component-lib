@@ -10,17 +10,18 @@ export default function CompDoc(props) {
     ];
     
     const { name, component, docData } = props;
-    const { a11y } = docData;
 
     return (
         <div>
             <div className="vrl-comp">
-                <h2>{name}</h2>
-                <div>
-                {component}
+                <div className="vrl-comp-header-wrap">
+                    <h2>{name}</h2>
+                    <span className="vrl-comp-tag">A11y</span>
+                    <span className="vrl-comp-tag">Tested</span>
+                    <span className="vrl-comp-tag">+52</span>
                 </div>
+                <div className="vrl-comp-container">{component}</div>
                 <div className="vrl-comp-doc">
-                    <div>Accessibility - {a11y}</div>
                     <div className="vrl-comp-doc-blk">
                         <table>
                             <tbody>
