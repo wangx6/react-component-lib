@@ -51,11 +51,9 @@ const iState = [
             vclsName='customized-cls'
             vdisabled={true}
         ></VhiButton>
-
-        
         </div>,
         docData: {
-            a11y: 'yes',
+            a11y: 'Yes',
             data: [
                 {
                     'property': 'vtext',
@@ -562,8 +560,6 @@ const iState = [
 ];
 
 const App = () => {
-
-
     const [state, setState] = useState(iState);
 
     const onclicksideitem = (itemName) => {
