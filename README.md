@@ -4,13 +4,16 @@
 
 [![NPM](https://img.shields.io/npm/v/vhi-react-lib.svg)](https://www.npmjs.com/package/vhi-react-lib) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+## INSTALL
 
 ```bash
-npm install @wangx6/vhi-react-library@1.0.1
+npm install @wangx6/vhi-react-library@latest
 ```
 
-## Usage
+## GH-PAGE
+[Story book is also available here.](https://wangx6.github.io/vhi-react-library/)
+
+## USAGE
 
 ```jsx
 import React, { Component } from 'react'
